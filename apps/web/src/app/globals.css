@@ -1,0 +1,14 @@
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  background: #0b1020;
+  color: #f8fafc;
+}
+body { margin: 0; }
+.shell { max-width: 920px; margin: 0 auto; padding: 14vh 32px; }
+.eyebrow { letter-spacing: .18em; opacity: .65; font-size: 12px; }
+h1 { font-size: clamp(46px, 8vw, 88px); line-height: .95; margin: 20px 0; }
+.lead { max-width: 720px; font-size: 20px; line-height: 1.6; opacity: .8; }
+.actions { display: flex; gap: 12px; margin: 32px 0 64px; flex-wrap: wrap; }
+button { border: 0; border-radius: 12px; padding: 14px 20px; font-weight: 700; cursor: pointer; }
+.secondary { background: transparent; color: #f8fafc; border: 1px solid #475569; }
+section { display: flex; gap: 18px; padding-top: 24px; border-top: 1px solid #334155; opacity: .8; }
